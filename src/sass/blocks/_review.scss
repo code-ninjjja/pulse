@@ -1,0 +1,39 @@
+.review {
+    min-height: 920px;
+    &__title {
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #0D0D0D;
+        margin-bottom: 60px;
+    }
+    &__item {
+        display: flex;
+        justify-content: flex-start;
+        gap: 61px;
+        padding-bottom: 60px;
+        align-items: center;
+        img {
+            width: 169px;
+            height: 169px;
+        }
+    }
+    &__name {
+        font-weight: 700;
+        font-size: 18px;
+        color:#0D0D0D;
+    }
+    &__achievement {
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+    &__text {
+        font-weight: 300;
+        font-size: 16px;
+        color: #0D0D0D;
+
+    }
+
+}
